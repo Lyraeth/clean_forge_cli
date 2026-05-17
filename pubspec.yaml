@@ -1,7 +1,7 @@
 name: clean_forge_cli
 description: A powerful CLI for generating Flutter Clean Architecture files and stubs.
 version: 0.0.1
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/Lyraeth/clean_forge_cli.git
 
 environment:
   sdk: ^3.11.5
@@ -9,6 +9,7 @@ environment:
 # Add regular dependencies here.
 dependencies:
   args: ^2.7.0
+  interact: ^2.2.0
   path: ^1.9.1
 
 dev_dependencies:
@@ -16,4 +17,5 @@ dev_dependencies:
   test: ^1.25.6
 
 executables:
-  forge: bin/cleam_forge_cli
+  forge: clean_forge_cli
+  gen: clean_forge_cli
